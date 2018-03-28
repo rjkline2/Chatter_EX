@@ -10,6 +10,8 @@ using ChatterExample;
 
 namespace ChatterExample.Controllers
 {
+    [RequireHttps]
+
     public class ChatsController : Controller
     {
         private Chatter_EXEntities db = new Chatter_EXEntities();
